@@ -1,6 +1,6 @@
 [user]
-	name = Tiso Alvarez Puccinelli
-	email = 28565117+tisoap@users.noreply.github.com
+  name = Tiso Alvarez Puccinelli
+  email = 28565117+tisoap@users.noreply.github.com
 [core]
   editor = code --wait
 [merge]
@@ -15,4 +15,4 @@
   ri = rebase --interactive --preserve-merges
   unstage = reset HEAD --
 [rerere]
-	enabled = true
+  enabled = true
