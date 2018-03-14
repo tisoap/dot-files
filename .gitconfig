@@ -9,10 +9,16 @@
   cmd = code --wait $MERGED
 [diff]
   tool = vscode
+[difftool]
+  prompt = false
 [difftool "vscode"]
   cmd = code --wait --diff $LOCAL $REMOTE
-[alias]
-  ri = rebase --interactive --preserve-merges
-  unstage = reset HEAD --
 [rerere]
   enabled = true
+[alias]
+  pf = push --force-with-lease
+  pr = pull --rebase
+  ri = rebase --interactive --preserve-merges
+  s = stash --include-untracked
+  sp = stash pop
+  l = log --oneline
