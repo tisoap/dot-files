@@ -16,9 +16,9 @@
 [alias]
   p = push
   pf = push --force-with-lease
-  p = pull --rebase
   ri = rebase --interactive
   s = stash --include-untracked
   sp = stash pop
   l = log --oneline
   f = fetch --all
+  c = commit --no-verify
