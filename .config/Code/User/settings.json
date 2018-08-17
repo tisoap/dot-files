@@ -1,11 +1,11 @@
 {
+  "breadcrumbs.enabled": true,
   "cSpell.language": "en,en-GB,en-US,pt,pt-BR",
   "cSpell.userWords": [],
   "debug.openDebug": "openOnDebugBreak",
   "debug.toolBarLocation": "docked",
-  "editor.codeLens": false,
+  "editor.codeLens": true,
   "editor.cursorBlinking": "solid",
-  "editor.foldingStrategy": "indentation",
   "editor.fontFamily": "'Droid Sans Mono', 'monospace', monospace, 'Droid Sans Fallback', 'Noto Color Emoji'",
   "editor.fontSize": 14,
   "editor.hover.enabled": false,
@@ -15,6 +15,7 @@
   "editor.smoothScrolling": true,
   "editor.tabSize": 2,
   "editor.wordWrap": "on",
+  "eslint.options": {},
   "explorer.confirmDelete": false,
   "explorer.confirmDragAndDrop": false,
   "extensions.ignoreRecommendations": true,
@@ -36,8 +37,10 @@
   "window.title": "${dirty}${activeEditorShort}${separator}${rootName}",
   "window.titleBarStyle": "custom",
   "window.zoomLevel": 0,
+  "workbench.enableExperiments": false,
+  "workbench.settings.enableNaturalLanguageSearch": false,
   "workbench.startupEditor": "newUntitledFile",
   "workbench.statusBar.feedback.visible": false,
-  "workbench.statusBar.visible": false,
+  "workbench.statusBar.visible": true,
   "workbench.tips.enabled": false
 }
