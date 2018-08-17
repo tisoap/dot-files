@@ -1,6 +1,6 @@
 [user]
   name = Tiso Alvarez Puccinelli
-  email = 28565117+tisoap@users.noreply.github.com
+	email = 28565117+tisoap@users.noreply.github.com
 [core]
   editor = code --wait
 [merge]
@@ -22,3 +22,5 @@
   l = log --oneline
   f = fetch --all
   c = commit --no-verify
+  dl = branch -d
+  dr = push origin --delete
