@@ -1,8 +1,16 @@
 [user]
   name = Tiso Alvarez Puccinelli
-	email = 28565117+tisoap@users.noreply.github.com
+  email = 28565117+tisoap@users.noreply.github.com
 [core]
   editor = code --wait
+	symlinks = true
+	autocrlf = false
+	fscache = true
+[color]
+	diff = auto
+	status = auto
+	branch = auto
+	interactive = true
 [merge]
   tool = vscode
 [mergetool "vscode"]
@@ -22,5 +30,6 @@
   l = log --oneline
   f = fetch --all
   c = commit --no-verify
+  ca = commit --amend --no-edit --no-verify
   dl = branch -d
   dr = push origin --delete
