@@ -3,14 +3,14 @@
   email = 28565117+tisoap@users.noreply.github.com
 [core]
   editor = code --wait
-	symlinks = true
-	autocrlf = false
-	fscache = true
+  symlinks = true
+  autocrlf = false
+  fscache = true
 [color]
-	diff = auto
-	status = auto
-	branch = auto
-	interactive = true
+  diff = auto
+  status = auto
+  branch = auto
+  interactive = true
 [merge]
   tool = vscode
 [mergetool "vscode"]
