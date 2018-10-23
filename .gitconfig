@@ -22,6 +22,7 @@
 [rerere]
   enabled = true
 [alias]
+  a = add --all
   p = push
   pf = push --force-with-lease
   ri = rebase --interactive
@@ -31,5 +32,5 @@
   f = fetch --all
   c = commit --no-verify
   ca = commit --amend --no-edit --no-verify
-  dl = branch -d
+  dl = branch -D
   dr = push origin --delete
