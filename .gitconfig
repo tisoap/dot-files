@@ -34,3 +34,7 @@
   ca = commit --amend --no-edit --no-verify
   dl = branch -D
   dr = push origin --delete
+[http]
+  sslVerify = false
+  postBuffer = 500M
+  maxRequestBuffer = 100M
