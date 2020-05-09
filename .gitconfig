@@ -29,7 +29,7 @@
   s = stash --include-untracked
   sp = stash pop
   l = log --oneline
-  f = fetch --all
+  f = fetch --all --prune
   c = commit --no-verify
   ca = commit --amend --no-edit --no-verify
   dl = branch -D
