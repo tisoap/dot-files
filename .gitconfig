@@ -26,7 +26,8 @@
   p = push
   pf = push --force-with-lease
   ri = rebase --interactive
-  s = stash --include-untracked
+  s = status
+  st = stash --include-untracked
   sp = stash pop
   l = log --oneline
   f = fetch --all --prune
