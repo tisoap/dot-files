@@ -6,6 +6,7 @@
   symlinks = true
   autocrlf = false
   fscache = true
+  pager = less -FRSX
 [color]
   diff = auto
   status = auto
@@ -23,19 +24,25 @@
   enabled = true
 [alias]
   a = add --all
-  p = push
+  b = branch
+  c = commit
+  cn = commit --no-verify
+  ca = commit --amend --no-edit --no-verify
+  ch = checkout
+  cb = checkout -b
+  dl = branch -D
+  dr = push origin --delete
+  f = fetch --all --prune
+  l = log --oneline
+  p = push -u
   pf = push --force-with-lease
   ri = rebase --interactive
   s = status
   st = stash --include-untracked
   sp = stash pop
-  l = log --oneline
-  f = fetch --all --prune
-  c = commit --no-verify
-  ca = commit --amend --no-edit --no-verify
-  dl = branch -D
-  dr = push origin --delete
 [http]
   sslVerify = false
   postBuffer = 500M
   maxRequestBuffer = 100M
+[push]
+  default = current
