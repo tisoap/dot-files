@@ -46,3 +46,5 @@
   maxRequestBuffer = 100M
 [push]
   default = current
+[fetch]
+  prune = true
