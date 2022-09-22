@@ -25,6 +25,7 @@
 [alias]
   a = add --all
   b = branch
+  br = branch -m
   c = commit
   cn = commit --no-verify
   ca = commit --amend --no-edit --no-verify
@@ -40,6 +41,7 @@
   s = status
   st = stash --include-untracked
   sp = stash pop
+  clean = gc --aggressive --prune --force
 [http]
   sslVerify = false
   postBuffer = 500M
@@ -48,3 +50,5 @@
   default = current
 [fetch]
   prune = true
+[pull]
+  rebase = true
