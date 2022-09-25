@@ -41,7 +41,7 @@
   s = status
   st = stash --include-untracked
   sp = stash pop
-  clean = gc --aggressive --prune --force
+  g = gc --prune --aggressive --force
 [http]
   sslVerify = false
   postBuffer = 500M
