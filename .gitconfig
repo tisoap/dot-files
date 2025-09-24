@@ -2,7 +2,7 @@
   name = Tiso Alvarez Puccinelli
   email = 28565117+tisoap@users.noreply.github.com
 [core]
-  editor = code --wait
+	editor = cursor --wait
   symlinks = true
   autocrlf = false
   fscache = true
@@ -49,8 +49,6 @@
 [push]
   default = current
 [fetch]
-  prune = true
-[pull]
-  rebase = true
+	prune = true
 [init]
   defaultBranch = main
