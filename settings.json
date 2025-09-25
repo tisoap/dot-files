@@ -1,0 +1,152 @@
+{
+  "[xml]": {
+    "editor.formatOnSave": false
+  },
+  "[yaml]": {
+    "editor.formatOnSave": false,
+    "editor.codeActionsOnSave": {}
+  },
+  "[json]": {
+    "editor.formatOnSave": false,
+    "editor.codeActionsOnSave": {}
+  },
+  "[erb]": {
+    "editor.formatOnSave": false,
+    "editor.codeActionsOnSave": {}
+  },
+  "cSpell.enabledFileTypes": {
+    "*": true
+  },
+  "cSpell.language": "pt,pt_BR,en-US,en-GB,en",
+  "cSpell.userWords": [],
+  "diffEditor.renderSideBySide": true,
+  "editor.accessibilitySupport": "off",
+  "editor.codeLens": true,
+  "editor.cursorBlinking": "solid",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.foldingStrategy": "indentation",
+  "editor.fontFamily": "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 14,
+  "editor.formatOnSave": true,
+  "editor.guides.bracketPairsHorizontal": true,
+  "editor.guides.highlightActiveIndentation": true,
+  "editor.inlineSuggest.enabled": true,
+  "editor.insertSpaces": false,
+  "editor.minimap.enabled": false,
+  "editor.minimap.renderCharacters": false,
+  "editor.parameterHints.enabled": false,
+  "editor.quickSuggestions": {
+    "comments": false,
+    "other": false,
+    "strings": false
+  },
+  "editor.rulers": [80, 100],
+  "editor.scrollBeyondLastLine": false,
+  "editor.smoothScrolling": true,
+  "editor.stickyScroll.enabled": true,
+  "editor.suggestSelection": "first",
+  "editor.tabSize": 2,
+  "editor.unicodeHighlight.allowedCharacters": {
+    "’": true,
+    "️": true
+  },
+  "editor.wordWrap": "on",
+  "explorer.compactFolders": false,
+  "explorer.confirmDelete": false,
+  "explorer.confirmDragAndDrop": false,
+  "extensions.ignoreRecommendations": true,
+  "files.associations": {
+    "*.erb": "erb",
+    "*.html.erb": "erb",
+    "*.svg": "xml"
+  },
+  "files.eol": "\n",
+  "files.insertFinalNewline": true,
+  "files.trimTrailingWhitespace": true,
+  "git.autofetch": true,
+  "git.autorefresh": true,
+  "git.confirmSync": false,
+  "git.enableSmartCommit": true,
+  "git.mergeEditor": true,
+  "git.pruneOnFetch": true,
+  "git.pullBeforeCheckout": true,
+  "git.terminalGitEditor": true,
+  "gitlens.blame.heatmap.enabled": false,
+  "gitlens.blame.highlight.locations": ["line", "gutter", "overview"],
+  "gitlens.codeLens.enabled": false,
+  "gitlens.heatmap.locations": ["line"],
+  "gitlens.hovers.currentLine.over": "line",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "javascript.validate.enable": true,
+  "js/ts.implicitProjectConfig.checkJs": true,
+  "mergeEditor.diffAlgorithm": "advanced",
+  "scss.validate": false,
+  "search.followSymlinks": false,
+  "security.workspace.trust.banner": "never",
+  "security.workspace.trust.enabled": false,
+  "security.workspace.trust.startupPrompt": "never",
+  "security.workspace.trust.untrustedFiles": "open",
+  "tailwindCSS.lint.cssConflict": "error",
+  "tailwindCSS.lint.recommendedVariantOrder": "error",
+  "terminal.integrated.defaultProfile.linux": "bash",
+  "terminal.integrated.defaultProfile.osx": "zsh",
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "terminal.integrated.enableMultiLinePasteWarning": "never",
+  "terminal.integrated.fontSize": 14,
+  "terminal.integrated.smoothScrolling": true,
+  "typescript.enablePromptUseWorkspaceTsdk": true,
+  "typescript.locale": "en",
+  "typescript.preferences.importModuleSpecifierEnding": "minimal",
+  "typescript.tsserver.log": "off",
+  "typescript.tsserver.useSyntaxServer": "never",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "window.title": "${dirty}${activeEditorShort}${separator}${rootName}",
+  "window.titleBarStyle": "custom",
+  "workbench.editor.pinnedTabSizing": "compact",
+  "workbench.enableExperiments": false,
+  "workbench.list.smoothScrolling": true,
+  "workbench.settings.enableNaturalLanguageSearch": true,
+  "workbench.statusBar.visible": true,
+  "workbench.tips.enabled": false,
+  "window.commandCenter": true,
+  "git.openRepositoryInParentFolders": "always",
+  "workbench.colorTheme": "Default Dark+",
+  "editor.copyWithSyntaxHighlighting": false,
+  "gitlens.advanced.messages": {
+    "suppressLineUncommittedWarning": true
+  },
+  "workbench.editor.empty.hint": "hidden",
+  "explorer.confirmPasteNative": false,
+  "cursor.cpp.disabledLanguages": [
+    "scminput",
+    "dotenv",
+    "git-commit",
+    "mdx",
+    "untitled"
+  ],
+  "diffEditor.hideUnchangedRegions.enabled": true,
+  "files.exclude": {
+    "**/node_modules": true
+  },
+  "cursor.cpp.enablePartialAccepts": true,
+  "cursor.diffs.useCharacterLevelDiffs": true,
+  "application.shellEnvironmentResolutionTimeout": 15,
+  "cursor.general.gitGraphIndexing": "enabled",
+  "cursor.composer.showSuggestedFiles": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "cursor.composer.collapsePaneInputBoxPills": true,
+  "cursor.terminal.usePreviewBox": true,
+  "cursor.composer.shouldChimeAfterChatFinishes": true,
+  "cursor.composer.shouldAllowCustomModes": true,
+  "tailwindCSS.experimental.configFile": {
+    "app/javascript/react/components/shared/BuilderUI/styles/tailwind.builder.config.js": "app/javascript/react/components/shared/BuilderUI/**/*",
+    "app/javascript/stylesheets/tailwind.config.js": [
+      "**",
+      "!app/javascript/react/components/shared/BuilderUI/**"
+    ]
+  },
+  "workbench.settings.applyToAllProfiles": [
+    
+  ]
+}
